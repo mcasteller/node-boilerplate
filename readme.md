@@ -43,6 +43,8 @@ Create user and define readWrite rol.
 
 - Mongoose 
 
+- JWT token for user authentication
+
 - Jest, supertest for testing
 
 - Lodash (simil underscore)
