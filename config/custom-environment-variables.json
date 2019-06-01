@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "BOILERPLATE_JWT_PRIVATE_KEY",
+  "db": "MONGODB_CONNECTION_STRING"
+}
