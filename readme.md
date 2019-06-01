@@ -1,19 +1,17 @@
 # Node web server bolierplate
 
-CRUD web application. 
+It contains initial folder structure to start developing a Node Restful API. So far it only deals with user authentication API.
 
 Technologies
 
--  NodeJS
--  Firebase database
--  Webpack as local development server (Heroku as production server)
--  styles are delivered through SASS 
--  test cases provided by Jest test tool.
-
+-  NodeJS (await, async functions)
+-  Express
+-  MongoDB database (mongoose)
+-  Jest test tool.
 
 ## Required Tools
     [Node.JS](https://nodejs.org/en/)
-    [yarn](https://www.npmjs.com/package/yarn) 
+    [npm](https://www.npm.com/) 
 
 ## Installation
 Go to the project root folder and run
@@ -33,11 +31,12 @@ To run this project into a local server run
 ```
 node index.js
 ```
+
 ## MongoDB Atlas
 Create a Database/Cluster
 Create user and define readWrite rol.
 
-## Some interesting topics you may find:
+## Some interesting topics you may find
 
 - NodeJS Restful services, async methods
 
@@ -53,7 +52,7 @@ Create user and define readWrite rol.
 
 - Joi - Object server side validation
 
-## Project Structure:
+## Project Structure
 
 - /config: where config resources met (npm config-module)
   
